@@ -1,4 +1,4 @@
-[中文](./README-CN.md) / English
+[中文](./README-cn.md) / English
 
 ## Preface
 
@@ -26,6 +26,8 @@ You can refer to the offical website of Waffle width the detailed usage(https://
 
 ```bash
 yarn install
+
+#node version v20.11.0
 ```
 
 - 2 compile contracts
@@ -52,6 +54,8 @@ yarn test
 
 ```bash
 node index.js
+
+## index.js Line 19:let address = "xxxxxxx" change account to self
 ```
 
 ## Note
@@ -89,7 +93,13 @@ afer changed:
 
 - waffle offical document: <https://ethereum-waffle.readthedocs.io/en/latest/getting-started.html>
 
-- etherjs offical document: <https://docs.ethers.io/v4/api-providers.html>  
-  <https://docs.ethers.io/v5/getting-started/#getting-started--contracts>
+- etherjs offical document:
+  - v6 <https://docs.ethers.org/v6/getting-started>
+  - v5 <https://docs.ethers.io/v5/getting-started/#getting-started--contracts>
+  - v4 <https://docs.ethers.io/v4/api-providers.html>  
 
-- Chinese document: <https://learnblockchain.cn/docs/ethers.js/api-providers.html>
+- Chinese document:
+  - v6 <https://www.wtf.academy/docs/ethers-101/HelloVitalik/>
+  - v5 <https://learnblockchain.cn/ethers_v5/getting-started>
+  - v4 <https://learnblockchain.cn/docs/ethers.js/api-providers.html>
+ 

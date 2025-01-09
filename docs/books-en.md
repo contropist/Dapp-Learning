@@ -1,4 +1,4 @@
-## Book recommendation   
+## Book Recommendation   
 The document contains all kinds of classic books, including but not limited to "humanities", "economics", "social science", etc.
  
 - [《The fiscal code of the central Empire》](https://book.douban.com/subject/27007549/)
@@ -10,6 +10,7 @@ The document contains all kinds of classic books, including but not limited to "
 - [《The Fourth Turn》](https://www.amazon.com/Fourth-Turning-American-Prophecy-Rendezvous/dp/0767900464)
 - [《Amusing Ourselves to Death》](https://book.douban.com/subject/1062193/)
 - [《"Smart Investor"》](https://book.douban.com/subject/5243775/)
+- [《Robert's Rules of Order Newly Revised, 12th edition》](https://www.amazon.com/Roberts-Rules-Order-Newly-Revised/dp/1541736699)
 
 ## Article recommendation 
 

@@ -12,7 +12,7 @@ IPFS 结合了分布式散列表、鼓励块交换和一个自我认证的名字
 该文件系统可以通过多种方式访问，包括 FUSE 与 HTTP。将本地文件添加到 IPFS 文件系统可使其面向全世界可用。文件表示基于其哈希，因此有利于缓存。文件的分发采用一个基于 BitTorrent 的协议。其他查看内容的用户也有助于将内容提供给网络上的其他人。  
 IPFS 有一个称为 IPNS 的名称服务，它是一个基于 PKI 的全局名字空间，用于构筑信任链，这与其他 NS 兼容，并可以映射 DNS、.onion、.bit 等到 IPNS。
 
-todo 1155 left
+<!-- todo 1155 left -->
 
 ## IPFS 安装
 
@@ -92,6 +92,8 @@ ipfs daemon
 
     ```bash
     yarn install 或者 npm install
+
+     #Node 版本： v20.11.0
     ```
 
 2. 配置私钥和网络：
@@ -118,7 +120,7 @@ ipfs daemon
 3. 执行如下命令
 
 ```angular2html
-npx hardhat run scripts/deploy-ipfs.js --network goerli
+npx hardhat run scripts/deploy-ipfs.js --network sepolia
 ```
 
 运行结束后，在 console 输出的日志中，最后一行打印出了你上传文件独有的 hash

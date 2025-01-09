@@ -87,13 +87,13 @@ x∗y=k
 
 每一笔交易都会改变两个代币的数量，无论数量如何变化，`k` 都应该保持不变。
 
-<!-- $$(x + \Delta x)(y - \Delta y) = xy$$ -->
-<img src="https://render.githubusercontent.com/render/math?math=(x%2B\Delta x)(y-\Delta y)=xy" />
+$$(x + \Delta x)(y - \Delta y) = xy$$
+<!-- <img src="https://render.githubusercontent.com/render/math?math=(x%2B\Delta x)(y-\Delta y)=xy" /> -->
 
 这里的意思是用 `Delta x` 数量的`token x` 交换出 `Delta y` 数量的 `token y`。所以计算 `Delta y` 的公式为：
 
-<!-- $$\Delta y = \frac{y \Delta x} {x + \Delta x}$$ -->
-<img src="https://render.githubusercontent.com/render/math?math=\Delta y=\frac{y \Delta x}{x %2B \Delta x}" />
+$$\Delta y = \frac{y \Delta x} {x + \Delta x}$$
+<!-- <img src="https://render.githubusercontent.com/render/math?math=\Delta y=\frac{y \Delta x}{x %2B \Delta x}" /> -->
 
 请注意，我们现在得到的 `Delta y` 是数量而不是价格。计算数量的方法对应 `Exchange.getAmount()`。
 
@@ -122,6 +122,7 @@ await exchange.getEthAmount(toWei(2000)); // 500
 注意：我们最初基于汇率的定价函数没有错（恒定和公式的 AMM）。事实上，当我们交易的代币数量相对数量非常小时。但是要提供 AMM，我们需要更复杂的东西。
 
 ## Exchange 合约实现
+![uniswap-exchange函数列表](./images/uniswap-exchange.png)
 
 V1 的 Exchange 合约包含了定价、交易、添加/移除流动性、分发 LP token 代币功能。
 

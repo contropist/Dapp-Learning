@@ -27,6 +27,8 @@ Waffle 详细使用方法可以参考 [Waffle 官网](https://ethereum-waffle.re
 
 ```bash
 yarn install
+
+#node 版本 v20.11.0
 ```
 
 - 2 编译合约
@@ -53,6 +55,8 @@ yarn test
 
 ```bash
 node index.js
+
+## index.js 第19行 let address = "xxxxxxx" 修改成自己地址
 ```
 ## 说明
 在使用命yarn install命令，提示无法找到yarn命令时（比如在VMware上跑），可以尝试执行：
@@ -88,7 +92,12 @@ $ yarn --versionyarn --version
 
 - waffle 官方文档： <https://ethereum-waffle.readthedocs.io/en/latest/getting-started.html>
 
-- ehterjs 官方文档： <https://docs.ethers.io/v4/api-providers.html>  
-<https://docs.ethers.io/v5/getting-started/#getting-started--contracts>
+- ehterjs 官方文档： 
+  - v6 <https://docs.ethers.org/v6/getting-started>
+  - v5 <https://docs.ethers.io/v5/getting-started/#getting-started--contracts>
+  - v4 <https://docs.ethers.io/v4/api-providers.html>  
 
-- 中文文档： <https://learnblockchain.cn/docs/ethers.js/api-providers.html>
+- 中文文档： 
+  - v6 <https://www.wtf.academy/docs/ethers-101/HelloVitalik/>
+  - v5 <https://learnblockchain.cn/ethers_v5/getting-started>
+  - v4 <https://learnblockchain.cn/docs/ethers.js/api-providers.html>
